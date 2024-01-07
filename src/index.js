@@ -8,7 +8,7 @@ import "./style.css";
 const content = document.getElementById("content");
 document.body.insertBefore(navBar(), content);
 // content.appendChild(homePage());
-content.appendChild(contact());
+content.appendChild(homePage());
 document.body.appendChild(footer(), content);
 
 const homeNav = document.getElementById("home");

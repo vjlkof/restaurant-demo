@@ -1,3 +1,5 @@
+import "./navBar.module.css";
+
 export default function navBar() {
   const navElement = document.createElement("nav");
   const navOptions = document.createElement("ul");
